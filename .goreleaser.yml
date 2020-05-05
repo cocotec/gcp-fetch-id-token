@@ -11,6 +11,10 @@ builds:
       - windows
     goarch:
       - amd64
+archives:
+  -
+    format: zip
+    files: none*
 checksum:
   name_template: 'checksums.txt'
 snapshot:
